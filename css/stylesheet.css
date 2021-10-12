@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+body {
+  background: #efefe3;
+  position: relative;
+}
+
+#title {
+  font-size: max(3.6vw, 48px);
+  margin: 12px 48px;
+}
+
+.moreinfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.moreinfo * {
+  width: 100%;
+  margin: 2px 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.link {
+  border-left: 4px solid #222;
+  padding-left: 8px
+}
+
+#content, #contact {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 36px 0;
+}
+
+.info {
+  width: 80%;
+  border: 2px solid #222;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+#wikilink {
+  font-size: 20px;
+  transform: translateX(-50%);
+}
+
+.info ul {
+  margin-left: 48px;
+}
+
+textarea, textarea:focus, input, input:focus, select, select:focus {
+  border-radius: 6px;
+  outline: none;
+  padding: 6px;
+  margin: 12px 0 20px;
+  border: none;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  float: right;
+}
+
+#experience {
+  width: initial;
+}
+
+footer {
+  width: 100vw;
+  padding: 10px;
+  background: #afafa3;
+  border-top: 1px solid #222;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#mailinglist {
+  display: flex;
+  align-items: center;
+  width: max(50%, 500px);
+  margin: 20px 0;
+  float: right;
+}
+
+#mailinglist * {
+  width: 100%;
+  margin: 0 20px;
+}
